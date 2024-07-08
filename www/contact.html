@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Travelbuddy - Contact</title>
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/contact.css">
+
+</head>
+
+<body>
+
+<nav id='menu'>
+    <input type='checkbox' id='responsive-menu' onclick='updatemenu()'><label></label>
+    <ul>
+        <li><a href='http://'>Home</a></li>
+        <li><a href='http://'>Matching</a></li>
+        <li><a class='dropdown-arrow' href='http://'>Profiel</a>
+            <ul class='sub-menus'>
+                <li><a href='http://'>Instellingen</a></li>
+            </ul>
+        </li>
+        <li><a href='http://'>Contact</a></li>
+        <li><a class='dropdown-arrow' href='http://'>Beheren</a>
+            <ul class='sub-menus'>
+                <li><a href='http://'>Gebruikers</a></li>
+                <li><a href='http://'>Statistieken</a></li>
+                <li><a href='http://'>Ticketsysteem</a></li>
+                <li><a href='http://'>Websitebeheer</a></li>
+            </ul>
+        </li>
+    </ul>
+</nav>
+
+    <main>
+        <div class="container">
+            <h1>Contact</h1><br>
+            <div class="contact">
+                <div id="matching" class="contactinfo">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p><br>
+                </div>
+            </div>
+            <form id="contact" action="" method="post">
+                <h2>Contact via mail</h2>
+                <p>Vragen, feedback of iemand rapporteren? Neem contact met ons op!</p>
+                <fieldset>
+                    <input placeholder="Naam" type="text" tabindex="1" required autofocus>
+                </fieldset>
+                <fieldset>
+                    <input placeholder="Email" type="email" tabindex="2" required>
+                </fieldset>
+                <fieldset>
+                    <input placeholder="(optioneel) Telefoonnummer" type="tel" tabindex="3">
+                </fieldset>
+                <fieldset>
+                    <fieldset>
+                        <textarea placeholder="Type your Message Here...." tabindex="4" required></textarea>
+                    </fieldset>
+                    <fieldset>
+                        <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Verzenden</button>
+                    </fieldset>
+                </fieldset>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <p>Copyright Buddymakers.</p>
+    </footer>
+</body>
+
+</html>
